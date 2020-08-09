@@ -1,8 +1,23 @@
 /*padrão de cores
 #FF99CC - rosa claro
 #FF66CC - rosa
-#993399 - roxo claro
+#993399 - rgba(153, 51, 153, 1)  roxo claro
 #990099 - roxo
-#6699FF - azul claro
+#6699FF - rgba(102, 153, 255, 1) azul claro
 #3333FF - azul
 */
+body {
+    background: linear-gradient(#6699FF, #FF99CC);
+}
+
+.white-alpha-05 {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.border-10-30 {
+    border-radius: 10px 30px;
+}
+
+.border-10-10-30-30 {
+    border-radius: 10px 10px 30px 30px;
+}
