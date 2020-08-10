@@ -9,6 +9,7 @@ import { Head2Component } from './src/app/head2/head2.component';
 import { Head3Component } from './src/app/head3/head3.component';
 import { CarouselComponent } from './src/app/carousel/carousel.component';
 import { FooterComponent } from './src/app/footer/footer.component';
+import { HeaderComponent } from './src/app/header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './src/app/footer/footer.component';
     Head2Component,
     Head3Component,
     CarouselComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

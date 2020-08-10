@@ -21,3 +21,6 @@ body {
 .border-10-10-30-30 {
     border-radius: 10px 10px 30px 30px;
 }
+.border-30-30-10-10 {
+    border-radius: 30px 30px 10px 10px;
+}
