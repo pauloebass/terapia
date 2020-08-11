@@ -7,10 +7,10 @@ var favicon = require('serve-favicon');
 var app = express();
 
 //app.use(favicon(__dirname + '/public/favicon.ico'));
-app.use(express.static(path.join(__dirname, 'ui-web', 'gis', 'build')));
+app.use(express.static(path.join(__dirname, 'ui-web', 'build')));
 
 app.get('*', function(req, res, next) {
-  res.sendFile(path.join(__dirname, 'ui-web', 'gis', 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'ui-web', 'build', 'index.html'));
 });
 
 // catch 404 and forward to error handler
