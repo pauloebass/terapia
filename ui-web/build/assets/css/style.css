@@ -9,7 +9,7 @@
 
 body {
     background:
-    linear-gradient(rgba(102, 153, 255, .8), #FF99CC),
+    linear-gradient(to bottom right,rgba(102, 153, 255, .8), #FF99CC),
     radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
     radial-gradient(at 100% 100%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
     rgb(226, 226, 225);
